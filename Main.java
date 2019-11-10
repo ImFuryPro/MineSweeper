@@ -197,10 +197,8 @@ public class Main extends Application {
                     if (mines[x][y] == 1) {
                         grid[x][y].setText("M");
                     } else {
-                        if (near == 1 || near == 2 || near == 3 || near == 4 || near == 5) {
-                            grid[x][y].setEnabled(false);
-                            grid[x][y].setText(String.valueOf(near));
-                        }
+                        grid[x][y].setEnabled(false);
+                        grid[x][y].setText(String.valueOf(near));
                     }
                 } else if (near <= 0 && revealed[x][y]) {
                     grid[x][y].setEnabled(false);
@@ -228,10 +226,9 @@ public class Main extends Application {
             }
         }
 
-        frame.setBackground(Color.PINK);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack(); //устанавливает соответствующий размер фрейма
-        frame.setVisible(true); //делает фрейм видимым
+        frame.pack();
+        frame.setVisible(true);
     }
 
     @Override
