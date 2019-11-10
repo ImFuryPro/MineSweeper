@@ -1,5 +1,5 @@
 # MineSweeper on Java v1.0
-Minesweeper on Java. Just for fun!<br />
+Minesweeper on Java. Created just for fun.<br />
 
 Author: ImFuryPro<br />
 Version: 1.0<br />
